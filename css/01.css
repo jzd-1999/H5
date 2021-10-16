@@ -1,0 +1,30 @@
+#box {
+    position: relative;
+    width: 540px;
+    height: 304px;
+    margin: 300px 100px;
+    cursor: move;
+}
+
+#box .mask {
+    display: none;
+    position: absolute;
+    width: calc(540px / 2);
+    height: calc(304px / 2);
+    background-color: rgba(251, 153, 72, .5);
+}
+
+#box .glass {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 545px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: deeppink;
+}
+#box .glass img{
+    width: 150%;
+    height: 150%;
+}
