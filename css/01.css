@@ -29,6 +29,7 @@
     background-color: deeppink;
 }
 #box .glass img{
+    position: absolute;
     width: 150%;
     height: 150%;
 }
